@@ -5,6 +5,5 @@
 
 import Foundation
 
-class ColorDelegateImpl: ColorDelegate {
-
+class ColorDelegate {
 }

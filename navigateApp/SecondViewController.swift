@@ -3,8 +3,7 @@
 // Copyright (c) 2017 Ryota Kato. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class ColorDelegateImpl: ColorDelegate {
-
+class SecondViewController: UIViewController {
 }
