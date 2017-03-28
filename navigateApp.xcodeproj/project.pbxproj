@@ -13,6 +13,8 @@
 		2195058B1E81E69B000C9A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2195058A1E81E69B000C9A5C /* Assets.xcassets */; };
 		2195058E1E81E69B000C9A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195058C1E81E69B000C9A5C /* LaunchScreen.storyboard */; };
 		219505991E81E69B000C9A5C /* navigateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219505981E81E69B000C9A5C /* navigateAppTests.swift */; };
+		529A14E76A95C5CEFD844174 /* ColorDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A120A9A40A4BBD8BBD6E1 /* ColorDelegateImpl.swift */; };
+		529A194C5CF017C6FBB9EC8B /* ColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A18A2511916E869B2A697 /* ColorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		219505941E81E69B000C9A5C /* navigateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navigateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		219505981E81E69B000C9A5C /* navigateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigateAppTests.swift; sourceTree = "<group>"; };
 		2195059A1E81E69B000C9A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529A120A9A40A4BBD8BBD6E1 /* ColorDelegateImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDelegateImpl.swift; sourceTree = "<group>"; };
+		529A18A2511916E869B2A697 /* ColorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				2195058A1E81E69B000C9A5C /* Assets.xcassets */,
 				2195058C1E81E69B000C9A5C /* LaunchScreen.storyboard */,
 				2195058F1E81E69B000C9A5C /* Info.plist */,
+				529A160779E8354344BF5B6B /* Protocol */,
+				529A12F43CB942A2DACAE7B8 /* ProtocolImpl */,
 			);
 			path = navigateApp;
 			sourceTree = "<group>";
@@ -94,6 +100,22 @@
 				2195059A1E81E69B000C9A5C /* Info.plist */,
 			);
 			path = navigateAppTests;
+			sourceTree = "<group>";
+		};
+		529A12F43CB942A2DACAE7B8 /* ProtocolImpl */ = {
+			isa = PBXGroup;
+			children = (
+				529A120A9A40A4BBD8BBD6E1 /* ColorDelegateImpl.swift */,
+			);
+			path = ProtocolImpl;
+			sourceTree = "<group>";
+		};
+		529A160779E8354344BF5B6B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				529A18A2511916E869B2A697 /* ColorDelegate.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +225,8 @@
 			files = (
 				219505861E81E69B000C9A5C /* ViewController.swift in Sources */,
 				219505841E81E69B000C9A5C /* AppDelegate.swift in Sources */,
+				529A14E76A95C5CEFD844174 /* ColorDelegateImpl.swift in Sources */,
+				529A194C5CF017C6FBB9EC8B /* ColorDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
