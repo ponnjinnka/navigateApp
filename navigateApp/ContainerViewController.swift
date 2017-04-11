@@ -11,5 +11,4 @@ class ContainerViewController: UIViewController {
         super.viewDidLoad()
         //背景色を黄色にする
         self.view.backgroundColor = UIColor.yellow
-    }
-}
+    }}
