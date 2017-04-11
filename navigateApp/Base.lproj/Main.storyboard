@@ -70,11 +70,11 @@
                                     <segue destination="a2w-tX-ICz" kind="unwind" unwindAction="backHomeWithSegue:" id="l9p-cK-Dfc"/>
                                 </connections>
                             </button>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lwh-aR-bfE">
-                                <rect key="frame" x="0.0" y="313" width="375" height="354"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vl4-Jf-gHH">
+                                <rect key="frame" x="3" y="333" width="372" height="334"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="sMR-Kx-AeM" kind="embed" id="deX-J5-NbW"/>
+                                    <segue destination="gsF-9D-vIY" kind="embed" id="eeS-JJ-Tde"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -90,8 +90,12 @@
         <scene sceneID="PbI-AR-xYr">
             <objects>
                 <viewController id="sMR-Kx-AeM" customClass="ContainerViewController" customModule="navigateApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PWm-Jw-Brl"/>
+                        <viewControllerLayoutGuide type="bottom" id="lHe-Mj-Oeh"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cC7-oH-Flc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="354"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="コンテナの画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6I-gT-wmA">
@@ -108,6 +112,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPK-1e-Thk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1777" y="213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KZR-62-Tvv">
+            <objects>
+                <viewController id="gsF-9D-vIY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bfg-hl-NUx">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="334"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAL-qh-UVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
