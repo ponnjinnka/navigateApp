@@ -6,9 +6,9 @@
 import UIKit
 
 class ContainerViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         //背景色を黄色にする
         self.view.backgroundColor = UIColor.yellow
-    }}
+    }
+}
