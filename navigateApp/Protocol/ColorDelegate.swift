@@ -5,6 +5,8 @@
 
 import Foundation
 
-class ColorDelegateImpl: ColorDelegate {
-
+protocol ColorDelegate {
+    var delegate: ColorDelegate {get set}
+    func coloredYellow()
+    func coloredBlue()
 }

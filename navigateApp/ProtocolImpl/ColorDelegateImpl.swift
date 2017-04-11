@@ -5,5 +5,14 @@
 
 import Foundation
 
-class ColorDelegate {
+class ColorDelegateImpl {
+
+     var delegate: ColorDelegate?
+
+     // 数字が50以下なら青、51以上なら黄色を選択したことを通知する
+     func chooseColor() {
+
+     }
+
 }
+

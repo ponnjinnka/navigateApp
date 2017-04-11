@@ -14,7 +14,6 @@
 		2195058E1E81E69B000C9A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2195058C1E81E69B000C9A5C /* LaunchScreen.storyboard */; };
 		219505991E81E69B000C9A5C /* navigateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219505981E81E69B000C9A5C /* navigateAppTests.swift */; };
 		529A14E76A95C5CEFD844174 /* ColorDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A120A9A40A4BBD8BBD6E1 /* ColorDelegateImpl.swift */; };
-		529A184E431E520F265563C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A1C135E7746B99B9B1477 /* SecondViewController.swift */; };
 		529A194C5CF017C6FBB9EC8B /* ColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A18A2511916E869B2A697 /* ColorDelegate.swift */; };
 		529A1B7F8298B38084F918E6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A11AB16A60AB7AF598852 /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		529A11AB16A60AB7AF598852 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		529A120A9A40A4BBD8BBD6E1 /* ColorDelegateImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDelegateImpl.swift; sourceTree = "<group>"; };
 		529A18A2511916E869B2A697 /* ColorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDelegate.swift; sourceTree = "<group>"; };
-		529A1C135E7746B99B9B1477 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 				2195058F1E81E69B000C9A5C /* Info.plist */,
 				529A160779E8354344BF5B6B /* Protocol */,
 				529A12F43CB942A2DACAE7B8 /* ProtocolImpl */,
-				529A1C135E7746B99B9B1477 /* SecondViewController.swift */,
 				529A11AB16A60AB7AF598852 /* ContainerViewController.swift */,
 			);
 			path = navigateApp;
@@ -233,7 +230,6 @@
 				219505841E81E69B000C9A5C /* AppDelegate.swift in Sources */,
 				529A14E76A95C5CEFD844174 /* ColorDelegateImpl.swift in Sources */,
 				529A194C5CF017C6FBB9EC8B /* ColorDelegate.swift in Sources */,
-				529A184E431E520F265563C5 /* SecondViewController.swift in Sources */,
 				529A1B7F8298B38084F918E6 /* ContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
